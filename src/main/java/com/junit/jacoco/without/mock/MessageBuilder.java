@@ -1,4 +1,4 @@
-package main.java.com.junit.jacoco;
+package com.junit.jacoco.without.mock;
 
 /**
  *

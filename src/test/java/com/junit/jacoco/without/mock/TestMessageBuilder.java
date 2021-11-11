@@ -1,10 +1,11 @@
-package test.java.com.junit.jacoco;
+package com.junit.jacoco.without.mock;
 
-import main.java.com.junit.jacoco.MessageBuilder;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
+/**
+ *
+ */
 public class TestMessageBuilder {
 
     @Test
