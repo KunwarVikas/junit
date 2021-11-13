@@ -5,7 +5,10 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
-uses: EnricoMi/publish-unit-test-result-action/composite@v1
-if: always()
-with:
-  files: test-results/**/*.xml
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      # Execute unit tests
+      - name: Unit Test
+        run: mvn clean test
