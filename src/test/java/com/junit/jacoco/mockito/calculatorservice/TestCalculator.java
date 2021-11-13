@@ -9,7 +9,11 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
-// @RunWith attaches a runner with the test class to initialize the test data
+/**
+ * @author Kunwar V.
+ */
+// @RunWith attaches a runner with the test class to initialize the test data.
+// gives you automatic validation of framework usage, as well as an automatic initMocks()
 @RunWith(MockitoJUnitRunner.class)
 public class TestCalculator {
 	

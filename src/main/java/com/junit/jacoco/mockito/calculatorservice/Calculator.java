@@ -1,5 +1,9 @@
 package com.junit.jacoco.mockito.calculatorservice;
 
+
+/**
+ * @author Kunwar V.
+ */
 public class Calculator {
    private ICalculatorService calcService;
 

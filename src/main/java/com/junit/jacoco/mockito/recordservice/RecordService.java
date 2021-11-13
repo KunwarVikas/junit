@@ -1,5 +1,8 @@
 package com.junit.jacoco.mockito.recordservice;
 
+/**
+ * @author Kunwar V.
+ */
 public class RecordService{
     private DatabaseDAO database;
     private NetworkDAO network;

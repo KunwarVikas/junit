@@ -1,7 +1,7 @@
 package com.junit.jacoco.without.mock;
 
 /**
- *
+ * @author Kunwar V.
  */
 public class MessageBuilder {
     public String getMessage(String name) {

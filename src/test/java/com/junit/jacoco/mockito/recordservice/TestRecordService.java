@@ -9,7 +9,10 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
-@RunWith(MockitoJUnitRunner.class) //
+/**
+ * @author Kunwar V.
+ */
+@RunWith(MockitoJUnitRunner.class)
 public class TestRecordService
 {
     @InjectMocks
