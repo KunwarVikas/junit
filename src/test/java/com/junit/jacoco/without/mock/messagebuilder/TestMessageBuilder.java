@@ -1,4 +1,4 @@
-package com.junit.jacoco.without.mock;
+package com.junit.jacoco.without.mock.messagebuilder;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
