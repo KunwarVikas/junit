@@ -6,4 +6,5 @@ How to run this project?
 * $ cd junit
 * $ mvn clean test
 
-# view report at 'target/site/jacoco/index.html'
+# view Jacoco test coverage report at 'target/site/jacoco/index.html'
+# view GitHub Action Workflow file at '.github/workflows/build.yaml'
