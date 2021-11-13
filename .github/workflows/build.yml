@@ -13,3 +13,6 @@ jobs:
       # Execute unit tests
       - name: Unit Test
         run: mvn clean test
+
+      - name: Test with Maven
+        run: mvn -B test --file pom.xml
