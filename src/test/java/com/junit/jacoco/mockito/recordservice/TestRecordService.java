@@ -1,20 +1,15 @@
-package com.junit.jacoco.mockito;
+package com.junit.jacoco.mockito.recordservice;
 
-
-import com.junit.jacoco.mockito.DatabaseDAO;
-import com.junit.jacoco.mockito.NetworkDAO;
-import com.junit.jacoco.mockito.RecordService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
-@RunWith(MockitoJUnitRunner.class)
+@RunWith(MockitoJUnitRunner.class) //
 public class TestRecordService
 {
     @InjectMocks
@@ -30,7 +25,7 @@ public class TestRecordService
     public void saveTest(){
         boolean saved = recordService.save("temp.txt");
         assertEquals(true, saved);
-        verify(databaseMock, times(1)).save("temp.txt");
-        verify(networkMock, times(1)).save("temp.txt");
+        verify(databaseMock, times(1)).saveFile("temp.txt");
+        verify(networkMock, times(1)).saveFile("temp.txt");
     }
 }
