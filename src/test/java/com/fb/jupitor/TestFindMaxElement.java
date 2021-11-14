@@ -1,6 +1,8 @@
-package com.junit.jacoco.without.mock.findmax;
+package com.fb.jupitor;
 
 import static org.junit.Assert.*;
+
+import com.fb.jupitor.FindMaxElement;
 import org.junit.Test;
 
 /**

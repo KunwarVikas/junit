@@ -1,4 +1,4 @@
-package com.junit.jacoco.mockito.recordservice;
+package com.fb.jupitor.services.recordservice;
 
 /**
  * @author Kunwar V.

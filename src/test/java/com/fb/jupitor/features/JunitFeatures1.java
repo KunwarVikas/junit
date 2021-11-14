@@ -1,4 +1,4 @@
-package com.junit.jacoco.without.mock.features;
+package com.fb.jupitor.features;
 
 import org.junit.After;
 import org.junit.Before;

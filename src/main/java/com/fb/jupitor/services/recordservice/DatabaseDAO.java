@@ -1,4 +1,4 @@
-package com.junit.jacoco.mockito.recordservice;
+package com.fb.jupitor.services.recordservice;
 
 
 /**
@@ -7,8 +7,8 @@ package com.junit.jacoco.mockito.recordservice;
  * Test class will require to use Mockito to test this.
  * @author Kunwar V.
  */
-public class NetworkDAO{
+public class DatabaseDAO{
     public void saveFile(String fileName) {
-        System.out.println("Saved in network location");
+        System.out.println("Saved in database");
     }
 }

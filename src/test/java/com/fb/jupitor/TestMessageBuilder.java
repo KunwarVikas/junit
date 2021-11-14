@@ -1,5 +1,6 @@
-package com.junit.jacoco.without.mock.messagebuilder;
+package com.fb.jupitor;
 
+import com.fb.jupitor.MessageBuilder;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

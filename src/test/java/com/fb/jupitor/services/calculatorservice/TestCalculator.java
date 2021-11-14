@@ -1,4 +1,4 @@
-package com.junit.jacoco.mockito.calculatorservice;
+package com.fb.jupitor.services.calculatorservice;
 
 import static org.mockito.Mockito.when;
 

@@ -1,4 +1,4 @@
-package com.junit.jacoco.without.mock.findmax;
+package com.fb.jupitor;
 
 /**
  * @author Kunwar V.
